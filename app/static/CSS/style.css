@@ -9,12 +9,15 @@ body{
 
 header{
   font-size: 55px;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.85);
+  border: 3px solid #7f7e7f;
   font-family: 'Rock Salt', cursive;
   color: white;
   text-align: center;
   padding: 20px;
   margin: 0px;
+  letter-spacing: 3px;
+  background-image: url(img src="/Images/ig1.jpg");
 }
 
 h1{
@@ -52,6 +55,7 @@ nav a:hover{
   padding: 10px;
   border: 3px black;
   font-size:20px;
+  background-color: rgba(0, 0, 0, 0.42);
 }
 
 P:first-letter { 
@@ -65,6 +69,8 @@ P:first-letter {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  border: 6px solid rgba (0,0,0, 0.85);
+ 
 }
 
 #albums{
@@ -90,8 +96,7 @@ table{
   text-align:center;
 }
 
-#video{
-  margin-left: auto;
-  margin-right: auto;
+iframe{
+  margin: 0 auto;
   display: block;
 }
